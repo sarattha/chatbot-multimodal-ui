@@ -1,0 +1,14 @@
+name: chat-ui
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python>=3.12
+- autopep8
+- matplotlib
+- numpy
+- pip
+- pip:
+  - gradio
+  - openai
+  - audioop-lts
